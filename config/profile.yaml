@@ -1,0 +1,184 @@
+# Your Job Search Profile Configuration
+
+profile:
+  # Personal Information
+  name: "Your Full Name"
+  email: "your.email@example.com"
+  phone: "+41 XX XXX XX XX"  # Swiss format
+  linkedin_url: "https://linkedin.com/in/yourprofile"
+  github_url: "https://github.com/yourusername"
+  portfolio_url: "https://yourportfolio.com"
+
+  # Location Preferences
+  location:
+    preferred_countries:
+      - "Switzerland"
+      - "Germany"
+      - "Netherlands"
+      - "Austria"
+      - "France"
+
+    preferred_cities:
+      - "Zurich"
+      - "Geneva"
+      - "Basel"
+      - "Lausanne"
+      - "Munich"
+      - "Berlin"
+      - "Amsterdam"
+
+    willing_to_relocate: true
+    visa_sponsorship_required: true
+
+  # Job Preferences
+  job_preferences:
+    # Job titles to search for
+    titles:
+      - "Software Engineer"
+      - "Full Stack Developer"
+      - "Data Scientist"
+      - "Machine Learning Engineer"
+      - "DevOps Engineer"
+      - "Product Manager"
+
+    # Keywords to include in search
+    keywords:
+      - "Python"
+      - "AI/ML"
+      - "Cloud"
+      - "Kubernetes"
+      - "React"
+      - "TypeScript"
+
+    # Experience level
+    experience_level: "Mid-Level"  # Entry-Level, Mid-Level, Senior, Lead
+
+    # Work arrangement
+    work_arrangement:
+      - "Remote"
+      - "Hybrid"
+      - "On-site"
+
+    # Preferred work authorization
+    requires_work_permit: true
+
+    # Salary expectations (in EUR/year or CHF/year)
+    salary_min: 70000
+    salary_max: 120000
+    salary_currency: "CHF"
+
+  # Switzerland Internship Preferences (if applicable)
+  internship_preferences:
+    enabled: true
+    duration_months: [3, 6, 12]
+    start_date: "2025-06-01"  # Preferred start date
+    fields:
+      - "Software Development"
+      - "Data Science"
+      - "AI Research"
+      - "Product Management"
+
+    universities:
+      - "ETH Zurich"
+      - "EPFL"
+      - "University of Zurich"
+      - "University of Geneva"
+
+  # Skills (for matching algorithm)
+  skills:
+    programming_languages:
+      - name: "Python"
+        proficiency: "Advanced"
+        years: 5
+      - name: "JavaScript/TypeScript"
+        proficiency: "Advanced"
+        years: 4
+      - name: "Java"
+        proficiency: "Intermediate"
+        years: 2
+
+    frameworks:
+      - "React"
+      - "Next.js"
+      - "FastAPI"
+      - "Django"
+      - "TensorFlow"
+      - "PyTorch"
+
+    tools:
+      - "Git"
+      - "Docker"
+      - "Kubernetes"
+      - "AWS"
+      - "PostgreSQL"
+      - "MongoDB"
+
+    soft_skills:
+      - "Team Leadership"
+      - "Agile/Scrum"
+      - "Problem Solving"
+      - "Communication"
+
+  # Education
+  education:
+    - degree: "Bachelor of Science in Computer Science"
+      university: "Your University"
+      graduation_year: 2020
+      gpa: 3.8
+
+    - degree: "Master of Science in AI"
+      university: "Your University"
+      graduation_year: 2022
+      gpa: 3.9
+
+  # Work Experience
+  experience_years: 3
+
+  # Documents
+  documents:
+    resume_path: "./documents/resume.pdf"
+    cover_letter_template: "./documents/cover_letter_template.txt"
+    portfolio_pdf: "./documents/portfolio.pdf"
+
+# Application Settings
+application:
+  auto_apply: true
+  match_threshold: 75  # Only auto-apply to jobs with ≥75% match
+  custom_cover_letter: true  # Generate custom cover letter for each job
+  follow_up_enabled: true
+  follow_up_days: 7  # Send follow-up email after 7 days
+
+  # Application filters
+  filters:
+    exclude_keywords:
+      - "Senior Leadership"
+      - "10+ years experience"
+      - "Requires security clearance"
+
+    exclude_companies:
+      - "Company Name to Avoid"
+
+    minimum_salary: 60000
+    maximum_commute_minutes: 60
+
+  # Rate limiting
+  rate_limit:
+    max_applications_per_day: 10
+    max_applications_per_company: 2
+    delay_between_applications: 300  # seconds (5 minutes)
+
+# Notification Settings
+notifications:
+  email:
+    enabled: true
+    daily_digest: true
+    digest_time: "09:00"
+    notify_on_application: true
+    notify_on_match: true
+
+  telegram:
+    enabled: false
+    notify_on_high_match: true  # Jobs with >85% match
+
+  sms:
+    enabled: false

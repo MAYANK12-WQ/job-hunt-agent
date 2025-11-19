@@ -1,0 +1,43 @@
+# Core Dependencies
+python-dotenv==1.0.0
+pyyaml==6.0.1
+requests==2.31.0
+
+# Web Scraping & Automation
+selenium==4.15.2
+beautifulsoup4==4.12.2
+scrapy==2.11.0
+playwright==1.40.0
+webdriver-manager==4.0.1
+
+# AI & NLP
+openai==1.6.1
+groq==0.4.1
+langchain==0.1.0
+anthropic==0.8.1
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.2
+python-dateutil==2.8.2
+
+# Database
+sqlalchemy==2.0.23
+alembic==1.13.1
+
+# Job Board APIs
+linkedin-api==2.2.0
+indeed-api-unofficial==0.1.0
+
+# Utilities
+colorama==0.4.6
+tqdm==4.66.1
+python-telegram-bot==20.7
+schedule==1.2.0
+
+# Email
+sendgrid==6.11.0
+yagmail==0.15.293
+
+# Browser automation
+undetected-chromedriver==3.5.4

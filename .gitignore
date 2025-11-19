@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+
+# Database
+data/
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Documents (sensitive)
+documents/resume.pdf
+documents/cover_letter_template.txt
+documents/portfolio.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Browser
+*.crdownload
+chromedriver.exe
+geckodriver.exe
+
+# Selenium
+screenshots/
